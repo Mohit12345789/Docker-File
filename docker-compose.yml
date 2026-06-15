@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   web:
-    image: "7665072317/website:laaaatest"
+    image: "7665072317/website:latest"
     ports:
       - "80:80"
     
