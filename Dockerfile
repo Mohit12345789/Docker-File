@@ -5,6 +5,6 @@ RUN apt-get update && \
     wget https://templated.live/roadtrip/download/roadtrip.zip && \
     unzip roadtrip.zip
     
-COPY . /usr/local/apache2/htdocs
+COPY /usr/local/apache2/* /usr/local/apache2/htdocs
 
 EXPOSE 80
