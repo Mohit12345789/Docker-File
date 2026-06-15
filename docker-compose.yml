@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web:
+    image: httpd:latest
+    container_name: website-container
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/usr/local/apache2/htdocs/
+    restart: always
