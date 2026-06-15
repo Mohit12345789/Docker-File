@@ -2,8 +2,7 @@ version: "3.8"
 
 services:
   web:
-    build:
-      context: .
+    image: "7665072317/website:latest"
     ports:
       - "80:80"
     
