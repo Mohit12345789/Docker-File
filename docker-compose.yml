@@ -4,6 +4,8 @@ services:
   web:
     image: httpd:latest
     container_name: website-container
+    build:
+      context: .
     ports:
       - "80:80"
     volumes:
